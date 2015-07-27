@@ -1,0 +1,63 @@
+/*
+	Colours:
+		Dune - #F77F00
+		Dune Light Shade - #c46500
+		Dune Dark Shade - #ab5800
+
+	Kuler:
+		Normal - #FE9034
+		Dark - #F2762F
+		Darker - #BD4814
+		Sky - #2AAFC3
+
+ */
+
+/* ------ Nav bar ------ */
+.navbar-inverse {
+	background-color: #FE9034;
+	border: 0;
+}
+.navbar-inverse .navbar-nav>li>a:hover, 
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+	color: #BD4814;
+}
+.navbar-inverse .navbar-nav>li>a.active,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+	color: #BD4814;
+}
+
+.mymenu {
+	position: absolute;
+	z-index: 100;
+	top: 0px;
+	width: 100%;
+	background:transparent;
+	border-color: transparent;
+	padding-top: 20px;
+	-webkit-transition: background 0.3s ease-out;
+	transition: background 0.3s ease-out;
+}
+
+/* ------ Buttons ------ */
+.btn-king.color {
+	background-color: #FE9034;
+}
+
+.btn-king.color:hover,
+.btn-king.color:focus,
+.btn-king.color:active {
+	background-color: #F2762F;
+}
+
+/* ------ Jumbotron ------ */
+.text-col{
+	margin-top: 0;
+}
+
+/* ------ Sections ------ */
+#projects {
+	background-color: #F2F2F2;
+}
